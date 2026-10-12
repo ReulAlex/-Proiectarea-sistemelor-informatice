@@ -1,7 +1,7 @@
 # Laborator 1: Definirea produsului inițial
 
-**Student:** <Reul Alexei>
-**Grupa:** <Infa-241>
+**Student:    Reul Alexei **
+**Grupa: Infa-241**
 **Cererea clientului:** „Ajută-mă să-mi urmăresc investițiile."
 
 ---
