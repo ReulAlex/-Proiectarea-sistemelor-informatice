@@ -1,7 +1,7 @@
 # Laborator 1: Definirea produsului inițial
 
-**Student:** <Nume Prenume>
-**Grupa:** <Grupa>
+**Student:** <Reul Alexei>
+**Grupa:** <Infa-241>
 **Cererea clientului:** „Ajută-mă să-mi urmăresc investițiile."
 
 ---
@@ -223,18 +223,3 @@ flowchart TB
 > **Principiu:** sistemul extern deține rezultatul sursă (informații de piață, confirmarea identității). Dashboard-ul deține în continuare modul în care acel rezultat devine clar și sigur pentru utilizator: etichetarea întârzierilor, izolarea elementelor lipsă și refuzul accesului când identitatea nu e confirmată.
 
 ---
-
-## Lista de verificare
-
-- [x] Am cercetat cel puțin două produse existente.
-- [x] Am citat dovezi pentru fiecare șablon de produs ales.
-- [x] Cercetarea mea a schimbat sau confirmat cel puțin o decizie de scop.
-- [x] Am cartografiat motivația și influența părților interesate.
-- [x] Am separat părțile interesate, actorii umani direcți și sistemele externe.
-- [x] Promisiunea produsului este o singură propoziție clară.
-- [x] Obiectivele și non-obiectivele sunt în acord cu promisiunea.
-- [x] Am scris cel puțin cinci povești de utilizator.
-- [x] Fiecare poveste are între două și patru definiții de „terminat".
-- [x] Cel puțin două povești includ un rezultat alternativ important.
-- [x] Dependențele externe includ un rezultat lipsă, depășit sau nesuportat vizibil pentru utilizator.
-- [x] Am creat o vizualizare C4 System Context a Dashboard-ului.
