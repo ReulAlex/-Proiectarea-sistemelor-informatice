@@ -190,12 +190,3 @@ O valoare RPS mare este un motiv de investigare, nu o dovadă. Fiecare rând est
 
 **Disponibilitate.** (1) Dependența externă: Market Data Provider și fluxul de sincronizare. (2) Dacă fluxul se oprește, vechimea prețurilor crește: după \~1–2 min depășește 17 min (C1), după \~14–15 min depășește 30 min și prețurile devin indisponibile. Dacă citirile ar apela furnizorul direct, o defecțiune a furnizorului ar deveni o defecțiune a Dashboard-ului. (3) Dovezi: întârzierea de \~15 min a furnizorului, pragurile de 17 și 30 min din C1 și bugetul de 9.45 min din 1.2. (4) Se confirmă dacă în testul cu furnizorul blocat 20 min citirile încep să returneze 5xx sau etichetele nu trec la „învechit” (la 17 min) și „indisponibil” (la 30 min); se respinge dacă citirile rămân 2xx, etichetele sunt corecte, iar minutele sunt clasificate corect.
 
-## Listă de verificare
-
-- ✔ Am scris cerințe măsurabile pentru toate calitățile de bază (latență, disponibilitate, consistență, debit).
-- ✔ Am ales și am justificat ținte ale timpului de funcționare pentru ambele părți ale zilei (99.9% și 99%).
-- ✔ Am arătat calculele RPS în regim stabil și la deschiderea pieței pentru toate cele trei niveluri.
-- ✔ Am cercetat și am definit domeniul de aplicare pentru Stocks acceptate (5,500 Stocks, SUA).
-- ✔ Am estimat stocarea brută inițială (2.41 GB), zilnică (54.3 MB scrise, 0.63 MB creștere netă) și pentru un an (2.57 GB).
-- ✔ Am precizat presupunerile, unitățile, intervalele și rotunjirea finală.
-- ✔ Am analizat un posibil blocaj pentru fiecare calitate de bază.
